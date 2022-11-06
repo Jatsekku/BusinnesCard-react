@@ -1,0 +1,23 @@
+.footer--container {
+    display: flex;
+    flex-direction: row;
+    background-color: #161619;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer--container a {
+    all: unset;
+}
+
+.footer--container i {
+    font-size: 1.5rem;
+    margin: 10px 25px;
+    color: #DCDCDC;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer--container i:hover {
+    transform: scale(1.4);
+}

@@ -1,0 +1,79 @@
+.info--container {
+    display: flex;
+    flex-direction: column;
+    margin: 1px auto;
+}
+  
+.info--photo {
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info--name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #DCDCDC;
+    margin: 10px auto;
+}
+
+.info--occupation {
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin: 3px auto;
+}
+
+.info--website {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin: 2px auto;
+}
+
+.info--buttons {
+    display: flex;
+    margin: 10px auto;
+}
+
+.info--buttons button {
+    width: 115px;
+    padding: 10px;
+    margin: 5px 17px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+}
+
+.info--button-linkedin {
+    background-color: #5093E2;
+}
+
+.info--button-linkedin:hover {
+    background-color: #2479db;
+}
+
+.info--button-linkedin > i,
+.info--button-email > i {
+    width: 16px;
+    height: 16px;
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+
+.info--button-linkedin > i {
+    color: #FFFFFF;
+}
+
+.info--button-linkedin > span,
+.info--button-email > span {
+    vertical-align: middle;
+}

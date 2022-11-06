@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  /* outline: solid red; */
+  outline-width: 1px;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.app--container {
+  width: 317px;
+  margin: auto;
+  font-family: Inter, sans-serif;
+  background-color: #1A1B21;
+  border-radius: 20px;
+}
